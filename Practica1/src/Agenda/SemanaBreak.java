@@ -20,7 +20,7 @@ public class SemanaBreak {
 	    {
 	    	if (numeroSemana <= 0 || numeroSemana > 52) {
 				
-				throw new DatoException("La semana debe tomar valor entre 0 y 52");
+				throw new DatoException("La semana debe tomar valor entre 1 y 52");
 			}
 	        this.numeroSemana = numeroSemana;
 	        dias = new DiaBreak[DIAS_RESERVABLES];
